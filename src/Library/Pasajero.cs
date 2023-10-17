@@ -2,11 +2,11 @@ namespace Ucu.Poo.Twitter;
 
 class Pasajero : Persona
 {
-    public Pasajero(string name, string surname, string CI, string Clasificacion)
+    public Pasajero(string name, string surname, string CI, string Calificacion)
     {
-        this.name = name;
-        this.surname = surname;
+        this.Name = name;
+        this.Surname = surname;
         this.CI = CI;
-        this.Clasificacion = Clasificacion;
+        this.Calificacion = Calificacion;
     }
 }
