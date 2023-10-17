@@ -1,4 +1,4 @@
-namespace PII_Herencia;
+namespace Ucu.Poo.Twitter;
 
 class Pasajero : Datos
 {
