@@ -4,8 +4,15 @@ namespace Ucu.Poo.Twitter;
 
 public class ConductorPool : Persona
 {
+    public ConductorPool(string name, string surname, string CI, string calificacion)
+    {
+        this.Name = name;
+        this.Surname = surname;
+        this.CI = CI;
+        this.Calificacion = Calificacion;
+    }
     public void Biografia()
     {
-        Console.WriteLine($"Biografia del conductor Pool\nNombre : {this.name}\nApellido : {this.surname}\nCedula : {this.CI}\nCalificacion del conductor : {this.Clasificacion}");
+        Console.WriteLine($"Biografia del conductor Pool\nNombre : {this.Name}\nApellido : {this.Surname}\nCedula : {this.CI}\nCalificacion del conductor : {this.Calificacion}");
     }
 }
