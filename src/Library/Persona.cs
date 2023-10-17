@@ -2,7 +2,7 @@ using System;
 
 namespace Ucu.Poo.Twitter;
 
-public class Datos
+public class Persona
 {
     public string name { get; set; }
     public string surname { get; set; }
