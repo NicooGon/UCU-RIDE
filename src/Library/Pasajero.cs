@@ -1,4 +1,4 @@
-namespace Ucu.Poo.Twitter;
+namespace Library;
 
 public class Pasajero : Persona
 {

@@ -1,6 +1,6 @@
 using System;
 
-namespace Ucu.Poo.Twitter;
+namespace Library;
 
 public class Conductor : Persona
 {
