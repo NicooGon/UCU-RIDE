@@ -10,6 +10,7 @@ public class Conductor : Persona
         this.Surname = surname;
         this.CI = CI;
         this.Calificacion = calificacion;
+        Vehiculo vehiculo = new Vehiculo();
     }
     public void Biografia()
     {
