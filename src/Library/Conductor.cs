@@ -9,7 +9,7 @@ public class Conductor : Persona
         this.Name = name;
         this.Surname = surname;
         this.CI = CI;
-        this.Calificacion = Calificacion;
+        this.Calificacion = calificacion;
     }
     public void Biografia()
     {
