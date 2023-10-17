@@ -12,6 +12,17 @@ public class UcuRideShare
     {
         ConductoresPasajeros.Add(persona);
         var twitter = new TwitterImage();
-        twitter.PublishToTwitter("text", @"PathToImage.png");
+        if (persona == Conductor conductor)
+        {
+            twitter.PublishToTwitter("Se publica un nuevo conductor !", @"PathToImage.png");
+        }
+        if (persona == ConductorPool conductorPool)
+        {
+            twitter.PublishToTwitter("Se publica un nuevo conductorPool !", @"PathToImage.png");
+        }
+        if (persona == Pasajero pasajero)
+        {
+            twitter.PublishToTwitter("Se publica un nuevo pasajero !", @"PathToImage.png");
+        }   
     }
 }
