@@ -2,8 +2,8 @@ namespace PII_Herencia;
 
 public class Datos
 {
-    string name {get; set;}
-    string surname {get; set;}
-    string CI {get;set;}
-    string Clasificacion {get;set;}
+    public string name { get; set; }
+    public string surname { get; set; }
+    public string CI { get; set; }
+    public string Clasificacion { get; set; }
 }
