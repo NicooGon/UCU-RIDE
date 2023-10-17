@@ -1,6 +1,6 @@
 namespace Ucu.Poo.Twitter;
 
-class Pasajero : Persona
+public class Pasajero : Persona
 {
     public Pasajero(string name, string surname, string CI, string calificacion)
     {
